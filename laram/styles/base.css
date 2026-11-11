@@ -237,6 +237,17 @@ div{
 	text-decoration: underline;
 }
 
+/* link a www.unisa.it nel piè di pagina: sempre riconoscibile come cliccabile */
+#content-footer dl.results dt a{
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+
+#content-footer dl.results dt a:hover,
+#content-footer dl.results dt a:focus{
+	color: #FF9900;
+}
+
 #content-footer dl.results dt{
 	background-image: none;
 	color: #fff;

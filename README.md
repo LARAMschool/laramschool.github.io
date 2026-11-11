@@ -10,7 +10,7 @@ iniziative, della community e dell'organizzazione.
 
 | Cartella | Contenuto |
 |---|---|
-| `www.laram.unisa.it/` | Pagine del sito |
+| `laram/` | Pagine del sito (home: `laram/index.html`) |
 | `www.unisa.it/`, `www3.unisa.it/` | Immagini e documenti ospitati sul portale di Ateneo |
 | `index.html` | Reindirizza alla home del sito |
 

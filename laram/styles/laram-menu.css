@@ -1,0 +1,40 @@
+/* Menu a sinistra (#left-navigator): voci piu' distanziate e separate.
+   Foglio aggiunto alla copia di backup; i fogli originali non sono modificati. */
+
+#left-navigator ul.links {
+	list-style: none;
+	margin: 10px 12px 10px 0;
+	padding: 0;
+	border-top: 1px solid #ddd;
+}
+
+#left-navigator ul.links li {
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #ddd;
+	background-image: none;
+}
+
+#left-navigator ul.links li a {
+	display: block;
+	padding: 7px 10px;
+	line-height: 1.35;
+	color: #333;
+	text-decoration: none;
+}
+
+#left-navigator ul.links li a:hover,
+#left-navigator ul.links li a:focus {
+	background-color: #f0f0f0;
+	color: #000;
+}
+
+#page #left-navigator ul.links li.current-link,
+#page #left-navigator ul.links li.current-link a:hover {
+	background-color: #FF9900;
+}
+
+#page #left-navigator ul.links li.current-link a {
+	color: #fff;
+	font-weight: bold;
+}
